@@ -11,7 +11,7 @@ Each case study is the version I'd want to be asked about in an interview, not a
 |---|---|---|---|
 | **[Alpha Engine](case-studies/alpha-engine.md)** | Options research platform: signal generation, a backtester priced off real historical OPRA chains, and a risk-managed IBKR execution engine (~31k lines of Python) | Tested four strategies; three came back negative or null, the fourth failed the pre-set risk bar. **Not funded — by its own evidence.** | [repo](https://github.com/bulevill/alpha-engine) |
 
-<!-- Add new rows here. Process: ADDING-A-PROJECT.md -->
+<!-- Add new rows here -->
 
 ---
 
@@ -27,10 +27,3 @@ Every case study follows the same shape, so you can skip to what you care about:
 
 I include failures and dead ends on purpose. A portfolio where every project succeeded tells
 you nothing about how someone handles the case where it doesn't — which is most cases.
-
----
-
-## Adding a project
-
-See [ADDING-A-PROJECT.md](ADDING-A-PROJECT.md) — the sanitization checklist, the case-study
-template, and the wiring steps.
