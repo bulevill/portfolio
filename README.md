@@ -9,7 +9,9 @@ Each case study is the version I'd want to be asked about in an interview, not a
 
 | Project | What it is | Outcome | Code |
 |---|---|---|---|
-| **[Alpha Engine](case-studies/alpha-engine.md)** | Options research platform: signal generation, a backtester priced off real historical OPRA chains, and a risk-managed IBKR execution engine (~31k lines of Python) | Tested four strategies; three came back negative or null, the fourth failed the pre-set risk bar. **Not funded — by its own evidence.** | [repo](https://github.com/bulevill/alpha-engine) |
+| **[Alpha Engine](case-studies/alpha-engine.md)** | Options research platform: signal generation, a backtester priced off real historical OPRA chains, and a risk-managed IBKR execution engine (~31k lines of Python) | Four strategies tested: two retired on the evidence, two still standing and blocked on named constraints — drawdown and execution access. **Nothing funded yet; the research is active.** | [repo](https://github.com/bulevill/alpha-engine) |
+
+| **[Dopplerganger](case-studies/dopplerganger.md)** | Acoustic geolocation: matches aircraft Doppler curves in a recording against US ADS-B flight data and terrain to estimate where it was recorded | 19/24 located on realistic renders from real flight tracks; detector 22/31 on held-out real flyovers. No field recording located to date; 0.8% of US land gives a 30-min recording a ≥ 50% chance of two usable passes. | [repo](https://github.com/bulevill/dopplerganger) |
 
 <!-- Add new rows here -->
 
